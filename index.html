@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Totoral Wind Farm - Meteoblue Map</title>
+  <title>San Juan Wind Farm - Meteoblue Map</title>
 
   <!-- Mapbox GL -->
   <script
@@ -47,14 +47,14 @@
   <script>
     const mapboxMap = new mapboxgl.Map({
       container: "mapContainer",
-      center: [-71.604386,-31.344231],
+      center: [-71.6043866,-31.344231],
       zoom: 5,
       minZoom: 0,
       maxZoom: 24,
       hash: true,
       attributionControl: false,
       keyboard: false,
-      maxBounds: [ [-71.574009,-31.363186], [-71.641061,-31.322434] ],
+      maxBounds: [ [-71.574009,-31.363186], [-71.641061,-31.322434] ]
     });
 
     const apiKey = "CoNOYmRQEU5Xnsr7";
@@ -92,7 +92,7 @@
       [-71.5988322403145,-31.3598021048309],
       [-71.6018660833788,-31.3596774448618],
       [-71.604954728317,-31.3592539920405],
-      [-71.6082774522234,-31.3585551517011],
+      [-71.6082774522234,-31.3585551517011]
     ];
     // Add a marker for each turbine
     turbineCoordinates.forEach((coord, index) => {
